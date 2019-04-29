@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Create Harry Potter story</title>
+    <title></title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
   </head>
   <body>
-    <h1>Create Harry Potter story!</h1>
-    <form action="/storyhp" method="post">
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name">
-    <label for="noun">Noun</label>
-    <input type="text" name="noun" id="noun">
-    <label for="secondnoun">Noun</label>
-    <input type="text" name="secondnoun" id="secondnoun">
-    <label for="adjective">Adjecive</label>
-    <input type="text" name="adjective" id="adjective">
-    <button type="submit" name="button">GO!</button> <br><br>
+    <div class="container px-lg-5">
+      <div class="row mx-lg-n5">
+        <div class="col py-3 px-lg-5 border bg-light"><a href="/formhp">Click here to create HP story!</a><br></div>
+
+        <div class="col py-3 px-lg-5 border bg-light"><a href="/formlotr">Click here to create LOTR story!</a></div>
+
+      </div>
+    </div>
+    <div class="row mx-lg-n8">
+      <div class="col py-3 px-lg-10 border bg-light">
+        Please select back-background color for your story!
+      </div>
+    </div>
     <div class="btn-group btn-group-toggle" data-toggle="buttons">
     <label class="btn btn-light">
       <input type="radio" name="options" value="#3399ff" autocomplete="off"> Blue
@@ -31,7 +33,6 @@
       <input type="radio" name="options" value="#cc6699" autocomplete="off"> Pink
     </label>
   </div>
-    </form>
 
   </body>
 </html>

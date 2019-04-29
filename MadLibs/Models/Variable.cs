@@ -6,6 +6,7 @@ namespace MadLibs.Models
     private string _noun;
     private string _secondnoun;
     private string _adjective;
+    private string _color;
 
     public string GetName()
     {
@@ -47,7 +48,15 @@ namespace MadLibs.Models
       _adjective = newAdjective;
     }
 
+    public string GetColor()
+    {
+      return _color;
+    }
 
+    public void SetColor(string newColor)
+    {
+      _color = newColor;
+    }
 
 
 
